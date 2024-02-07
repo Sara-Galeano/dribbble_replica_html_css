@@ -12,9 +12,9 @@ INDICE
 */
 
 /* 00 CSS RESET */
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -26,9 +26,6 @@ body{
 h1, .h2, .jumbo-ct1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-
-
 
 
 
@@ -78,7 +75,6 @@ h1, .h2, .jumbo-ct1 {
     .reverse {
         position: absolute;
         margin-left: 20px;
-        
     }
 }
 
@@ -107,3 +103,34 @@ h1, .h2, .jumbo-ct1 {
         background-color: #ffda79;
     }
 }
+
+@media (min-width: 768px){
+    .jumbo-container {
+    padding: 0 32px;
+}
+}
+@media (min-width: 768px){
+    .jumbo-ct1 {
+    letter-spacing: 0;
+}
+}
+@media (min-width: 768px){
+    .jumbo-h1 {
+    max-width: 870px;
+    font-size: 48px;
+    line-height: 56px;
+}
+}
+
+@media (min-width: 500px){
+    .jumbo-h1 {
+    max-width: 580px;
+}
+}
+
+/* @media (min-width: 768px){
+    .jumbo-p {
+    font-size: 18px;
+    line-height: 32px;
+}
+} */
