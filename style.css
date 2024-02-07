@@ -81,6 +81,7 @@ h1, .h2, .jumbo-ct1 {
         
     }
 }
+
 .jumbo-ct1 {
     animation: backgroundColor;
     animation-duration: 32s;
